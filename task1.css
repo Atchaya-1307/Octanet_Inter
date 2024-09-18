@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.comic-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.panel {
+    margin: 10px;
+    border: 2px solid #333;
+    background-color: #fff;
+    width: 300px;
+    text-align: center;
+}
+
+.panel img {
+    max-width: 100%;
+    height: auto;
+}
+
+.panel p {
+    padding: 10px;
+    font-size: 14px;
+}
